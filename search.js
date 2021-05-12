@@ -16,7 +16,7 @@ function sortByCity(query){
 		});
 		
 		if(list_cities.length>0){
-  		const objCopy = Object.assign({}, {name:country.name});
+  		const objCopy = Object.assign({}, country);
   		objCopy.cities = list_cities;
   		return objCopy;
 		}else{
